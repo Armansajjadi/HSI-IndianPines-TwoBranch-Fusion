@@ -51,6 +51,20 @@ The dataset is publicly available from [here](https://www.ehu.eus/ccwintco/index
 
 ---
 
+## 📈 Results
+
+### Confusion Matrix on Test Set
+
+![Confusion Matrix](assets/confusion%20matrix.png)
+
+### Data Split Visualization
+
+![Train/Validation/Test Split](assets/visualization.png)
+
+*Left to right: Ground truth map, training pixels (10%), validation pixels (5%), test pixels (85%).*
+
+---
+
 ## ⚠️ Known Issues
 
 - **Class 9** (Oats) has only 17 test samples and currently receives **0 predictions** – this is a known challenge due to extreme class imbalance and spectral similarity with other classes. Future work may focus on targeted data augmentation or few‑shot learning for rare classes.
@@ -73,4 +87,3 @@ and
 **Sayna Sarvar** ([@saynasarvar](https://github.com/saynasarvar)).  
 
 Both authors contributed equally to the design, implementation, and evaluation.
-
